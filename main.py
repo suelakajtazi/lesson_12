@@ -1,0 +1,19 @@
+import datetime
+
+time = datetime.datetime.now()
+
+print(time)
+
+print("year :", time.year)
+print("month :", time.month)
+print("day :", time.day)
+print("hour :", time.hour)
+print("minute :", time.minute)
+print("second :", time.second)
+print("microsecond :", time.microsecond)
+
+current_datetime1 = datetime.datetime.now().date()
+print(current_datetime1)
+current_datetime2 = datetime.datetime.now().time()
+print(current_datetime2)
+
