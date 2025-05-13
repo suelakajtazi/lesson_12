@@ -19,3 +19,9 @@ print(current_datetime2)
 
 tome_object = datetime.time(1 , 2, 3, 42434)
 print(tome_object)
+
+duration = datetime.timedelta(days = 3 , hours = 7)
+print(duration)
+
+new_date = time + duration
+print(new_date)
