@@ -17,3 +17,5 @@ print(current_datetime1)
 current_datetime2 = datetime.datetime.now().time()
 print(current_datetime2)
 
+tome_object = datetime.time(1 , 2, 3, 42434)
+print(tome_object)
